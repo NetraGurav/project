@@ -1,0 +1,85 @@
+*{
+    margin: 0; /* Removes default margin from all elements */
+    padding: 0; /* Removes default padding from all elements */
+    box-sizing: border-box; /* Ensures padding and borders are included in element's width and height */
+}
+main{
+    text-align:center;
+     justify-content :center;/*this aboth justify-content and align-items is used align the context in centre */
+    align-items : center;
+
+}
+.box{
+    height : 18vmin;
+    width : 18vmin;
+    border : none;
+   box-shadow:0 0 1rem rgba(150, 231, 189, 0.1);
+    border-radius :1rem;
+    font-size : 8vmin;
+    color : rgb(78, 15, 15);
+    background-color :rgb(95, 188, 241);
+    text-align: center;;
+}
+body{
+    background-color: rgb(144, 215, 231);
+    text-align: center;
+    justify-content :center;
+    align-items : center;
+    height : 100vh;
+    display : flex;
+}
+.container{
+    height : 70vh;
+    width : 60vmin;
+    display :flex;
+    flex-wrap:wrap;
+   justify-content: center;
+   align-items: center ;
+   gap : 1.5vmin;
+       
+}
+.game{
+    height : 60vmin;
+    width : 60vmin;
+    display :flex;
+    flex-wrap:wrap;
+   justify-content: center;
+   align-items: center ;
+   gap : 1.5vmin;
+  
+ 
+}
+#ResetGame{
+    padding : 1rem;
+   font-weight:lighter;
+    background-color : rgb(15, 12, 12);
+    color : white;
+    height : 1.5rem;
+    border-radius :1rem;
+    text-align: center;
+}
+#newgame{
+    padding : 1rem;
+    font-weight:lighter;
+     background-color : rgb(15, 12, 12);
+     color : white;
+     height : 1.5rem;
+     border-radius :1rem;
+     text-align: center;
+}
+.neww{
+    color :rgb(242, 18, 18);
+    font-size:larger;
+}
+.mcontainer{
+    height : 1000vmin;
+    display : flex;
+    justify-content :center;
+    text-align : center;
+    flex-direction : column;
+    
+
+}
+.hide{
+    display : none;
+}
